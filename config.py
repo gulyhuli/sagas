@@ -8,11 +8,11 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    API_TOKEN = 'token'
-    WEB_HOOK_URL = 'webhook'
+    API_TOKEN = '646696521:AAEoyHkxFBC8LGtc_nSjh_2AH2lJGuGDcUQ'
+    WEB_HOOK_URL = 'https://padavanw31.herokuapp.com'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///app.db'
-    SECRET_KEY = 'dev secret key'
-    BOT_NAME = 'your bot name'
+    SECRET_KEY = 'vdadv24t2f'
+    BOT_NAME = 'flowsamara_bot'
     IMAGE_DIR = 'files'
     SENDGRID_API_KEY = 'sendgrid api ley'
 
